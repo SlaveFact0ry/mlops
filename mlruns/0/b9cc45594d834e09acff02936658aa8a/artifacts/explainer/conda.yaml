@@ -1,0 +1,11 @@
+channels:
+- conda-forge
+dependencies:
+- python=3.10.6
+- pip<=22.2.1
+- pip:
+  - mlflow
+  - cffi==2.0.0
+  - shap==0.41.0
+  - typing-extensions==4.15.0
+name: mlflow-env
