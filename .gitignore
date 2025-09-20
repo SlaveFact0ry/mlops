@@ -9,6 +9,8 @@ __pycache__/
 /db_data/*
 # Distribution / packaging
 .Python
+.python-version
+.vscode/
 build/
 develop-eggs/
 dist/
