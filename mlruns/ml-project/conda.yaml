@@ -1,0 +1,9 @@
+# conda.yaml
+name: my_mlflow_env
+channel:
+  - conda-forge
+devendencies:
+  - python=3.12
+  - scikit-learn
+  - pandas
+  - mlflow
