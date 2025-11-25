@@ -3,7 +3,7 @@ provider "google" {
   region = "asia-northeast3"
 }
 
-resource. "google_artifact_registry_repository" "my_repository" {
+resource "google_artifact_registry_repository" "my_repository" {
   location      = "asia-northeast3"
   repository_id = "morise-kubeflow-cr"
   description   = "Kubeflow container registry"
