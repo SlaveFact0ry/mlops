@@ -13,6 +13,16 @@ resource "google_storage_bucket_iam_binding" "my_bucket_iam_binding" {
   roles   = "roles/storage.admin"
 
   members = [
-    "serviceAccount:${google_service_Account.my_service_account.email}"
+    "serviceAccount:${google_service_account.my_service_account.email}"
   ]
 }
+resource "google_artifact_registry_repository_iam_binding" "gsa_writer_binding" {
+  location      = "asia-northeast3"
+  project       = "toy-kubeflow-479211"
+  repository    = "morise-kubeflow-cr"
+  role          = "roles/artifactregistry.writer"
+  members       = [
+    "serviceAccount:${google_service_account.my_service_account.email}"
+  ]
+}
+
