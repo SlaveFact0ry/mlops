@@ -4,7 +4,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "my_bucket" {
-  name      = "morise-kubeflow-datasets"
+  name      = "morise-kubeflow-datasetss"
   location  = "asia-northeast3"
 
   website {
