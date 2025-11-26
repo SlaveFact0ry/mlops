@@ -1,5 +1,5 @@
 provider "google" {
-  project = "toy-kubeflow"
+  project = "toy-kubeflow-479211"
   region = "asia-northeast3"
 }
 
