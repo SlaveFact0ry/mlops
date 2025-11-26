@@ -1,6 +1,6 @@
 #!/bin/sh
 
-image_name=asia-northeast3-docker.pkg.dev/toy-kubeflow/morise-kubeflow-cr/ner-train
+image_name=asia-northeast3-docker.pkg.dev/toy-kubeflow-479211/morise-kubeflow-cr/ner-train
 image_tag=latest
 
 full_image_name=${image_name}:${image_tag}
