@@ -4,8 +4,8 @@ provider "google" {
 }
 
 resource "google_service_account" "my_service_account" {
-  account_id    = "gsa-kubeflow"
-  display_name  = "gsa-kubeflow"
+  account_id    = "gsa-kubefloww"
+  display_name  = "gsa-kubefloww"
 }
 
 resource "google_storage_bucket_iam_binding" "my_bucket_iam_binding" {
